@@ -13,11 +13,6 @@
 # limitations under the License.
 
 LOCAL_PATH := vendor/samsung/i9300
-
-PRODUCT_PACKAGES += \
-	libTVOut \
-	libUMP \
-	libfimc
 	
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/sbin/cbd:root/sbin/cbd
